@@ -1,7 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Mail, Phone, MapPin, Briefcase, GraduationCap, Award, Languages, Target, Heart, Download } from "lucide-react";
-import profilePic from "@/assets/hamza-profile.jpg";
-
+import profilePic from "../assets/hamza-profile.jpg";
 export const Route = createFileRoute("/")({
   component: Portfolio,
 });
